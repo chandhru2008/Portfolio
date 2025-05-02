@@ -1,8 +1,8 @@
 function Home() {
-    return (<div className="w-screen h-[90vh]">
+    return (<div className="w-screen h-[90vh] flex item-center justify-center">
 
-        <div className="w-[85%] h-[100%] lg:mx-auto md:mx-[30px] md:min-h-[100%]  flex items-center justify-between flex-wrap">
-            <div className="lg:h-[55%] w-[50%] sm:w-[100%] md:w-[100%] md:h-[30%] lg:w-[50%] flex flex-col items-start justify-between ">
+        <div className="w-[85%] h-[100%] lg:mx-auto md:mx-[30px] md:min-h-[100%]  flex items-center justify-between flex-wrap ]">
+            <div className="lg:h-[55%] md:min-h-[30%] sm:w-[100%] md:w-[100%] lg:w-[50%] flex flex-col items-start justify-between ">
                 <div className="text-[24px] text-[#4E525A]">Hey,I'am Chan 👋</div>
                 <span className="text-[90px] md:text-[80px] lg:text-[90px] sm:text-[90px] font-bold leading-[80px] "><span className="text-[#6e06f2]">Front</span>end Developer</span>
                 <div className="mt-[20px] text-[22px] font-normal text-[#4E525A]">I'm a frontend developer based in Italy, I'll help you build beautiful websites your users will love.</div>
@@ -15,8 +15,8 @@ function Home() {
                     </button>
                 </div>
             </div>
-            <div className="lg:w-[50%] md:w-[100%] flex items-center justify-end h-[100%]">
-                <div className="w-[60%] p-[40px] border-[1px] border-[#6e06f2] h-[60%] rounded-[50%]">
+            <div className="lg:w-[50%] md:w-[100%] sm:w-[100%] flex items-center lg:justify-end md:justify-center sm:justify-center sm:h-[60%] lg:h-[100%] md:h-[100%]" >
+                <div className="lg:w-[400px] md:w-[600px] sm:w-[300px] sm:h-[300px] p-[40px] border-[1px] border-[#6e06f2] lg:h-[400px] md:h-[600px] rounded-[50%]">
                     <div className="w-[100%] h-[100%] rounded-[50%] border-[1px]">
 
                     </div>
