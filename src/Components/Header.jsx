@@ -1,7 +1,7 @@
 import chatImage from '../assets/chat.svg'
 function Header() {
     return (<div className="w-screen h-[60px] flex items-center justify-center bg-color-gray">
-        <div className="lg:w-[85%] md:w-[95%] h-full flex justify-between items-center p-[10px]">
+        <div className="lg:w-[87%] md:w-[95%] h-full flex justify-between items-center p-[10px]">
             <div className='text-[16px] font-bold flex items-center'>Chandhru</div>
             <div className="flex items-center gap-[15px] text-[18px] font-semibold">
                 <div>Home</div>
