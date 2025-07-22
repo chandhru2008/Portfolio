@@ -1,7 +1,7 @@
 function Home() {
     return (<div className="w-screen h-[90vh] flex item-center justify-center">
 
-        <div className="w-[85%] h-[100%] lg:mx-auto md:mx-[30px] md:min-h-[100%]  flex items-center justify-between flex-wrap ]">
+        <div className="w-[85%] h-[100%] lg:mx-auto md:mx-[30px] md:min-h-[100%]  flex items-center justify-between flex-wrap ">
             <div className="lg:h-[55%] md:min-h-[30%] sm:w-[100%] md:w-[100%] lg:w-[50%] flex flex-col items-start justify-between ">
                 <div className="text-[24px] text-[#4E525A]">Hey,I'am Chan 👋</div>
                 <span className="text-[90px] md:text-[80px] lg:text-[90px] sm:text-[90px] font-bold leading-[80px] "><span className="text-[#6e06f2]">Front</span>end Developer</span>

@@ -1,9 +1,9 @@
 function Skills() {
     return (
-        <div className='w-screen sm:h-[650px] ld:h-[300px] md:h-[400px] flex justify-center m-1'>
+        <div className='w-screen min-h-[400px] flex justify-center m-1'>
             <div className="w-[85%] mx-auto">
                 <h1 className="text-[56px] font-extrabold mb-4">Skills</h1>
-                <div className="w-full h-full grid [grid-template-columns:repeat(auto-fit,minmax(200px,1fr))] gap-4 m-auto text-[18px] font-normal text-[#4E525A]">
+                <div className="w-full  grid [grid-template-columns:repeat(auto-fit,minmax(200px,1fr))] gap-4 m-auto text-[18px] font-normal text-[#4E525A]">
                     <div className="flex flex-col gap-2">
                         <h2 className="font-extrabold text-black text-[24px]">Frontend</h2>
                         <ul>
