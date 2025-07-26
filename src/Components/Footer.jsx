@@ -1,17 +1,20 @@
 import { Github, Instagram, Linkedin, Facebook } from 'lucide-react';
+import { useLocation, useNavigate } from 'react-router-dom';
 function Footer() {
     const socialMediaIcons = [<Github className='hover:text-[#6e06f2] cursor-pointer' />, <Instagram className='hover:text-[#6e06f2] cursor-pointer' />, <Linkedin className='hover:text-[#6e06f2]  cursor-pointer' />, <Facebook className='hover:text-[#6e06f2] cursor-pointer' />];
-
-
+    const navigate = useNavigate();
+    const location = useLocation();
+    const pathname = location.pathname;
+    console.log(pathname)
     return (<div className="w-screen min-h-[30vh] flex items-center justify-center bg-color-gray text-[#59555a]">
         <div className="w-full h-full flex flex-wrap justify-between items-center p-[10px] gap-y-[50px] flex-col sm:flex-row sm:items-center  lg:w-[85%] md:w-[95%] sm:justify-center">
             <div className='w-1/2 my-4 sm:text-center'>
                 <nav>
                     <ul className='flex items-center gap-6 font-extrabold  text-[18px]'>
-                        <li className='hover:text-[#6e06f2] cursor-pointer'>Home</li>
-                        <li className='hover:text-[#6e06f2] cursor-pointer'>Project</li>
-                        <li className='hover:text-[#6e06f2] cursor-pointer'>About</li>
-                        <li className='hover:text-[#6e06f2] cursor-pointer'>Contact</li>
+                        <li className={`hover:text-[#6e06f2] cursor-pointer ${pathname == '/' ? "text-[#6e06f2]" : ""}`} onClick={()=> navigate("/")}>Home</li>
+                        <li className={`hover:text-[#6e06f2] cursor-pointer ${pathname == '/projects' ? "text-[#6e06f2]" : ""}`} onClick={()=> navigate("/projects")}>Projects</li>
+                        <li className={`hover:text-[#6e06f2] cursor-pointer ${pathname == '/about' ? "text-[#6e06f2]" : ""}`} onClick={()=> navigate("/about")}>About</li>
+                        <li className={`hover:text-[#6e06f2] cursor-pointer ${pathname == '/contact' ? "text-[#6e06f2]" : ""}`} onClick={()=> navigate("/contact")}>Contact</li>
                     </ul>
                 </nav>
             </div>

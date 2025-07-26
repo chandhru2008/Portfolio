@@ -3,4 +3,5 @@
 *{
   font-family: 'Poppins';
   scrollbar-width: none;
+  box-sizing: border-box;
 }

@@ -1,4 +1,5 @@
 import './App.css'
+import Experience from './Components/Experience'
 import Footer from './Components/Footer'
 import Header from './Components/Header'
 import Home from './Components/Home'
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Home />
       <Skills />
+      <Experience />
       <MyStory />
       <Footer />
     </>

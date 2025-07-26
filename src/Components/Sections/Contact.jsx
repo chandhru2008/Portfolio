@@ -10,7 +10,7 @@ function Contact() {
                 <div className="w-[85%] h-full flex justify-between items-center">
                     <div className="w-1/2 flex flex-col gap-5">
                         <div>
-                            <h1 className="pb-[20px] text-[54px] font-extrabold">Get In Touch.</h1>
+                            <h1 className="pb-[10px] text-[54px] font-extrabold">Get In Touch.</h1>
                             <p className="text-[24px]">Looking to partner or work together? Reach out through the form and I'll get back to you in the next 48 hours.</p>
                         </div>
                         <div className="flex flex-col gap-2">
