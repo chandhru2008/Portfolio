@@ -18,14 +18,11 @@ function Experience() {
                             <ul className="flex flex-col gap-2">
                                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, repudiandae.</li>
                                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, repudiandae.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, repudiandae.</li>
-
                             </ul>
                         </div> :
                         <div className="flex flex-col">
-                            <h2 className="mb-2">Product Developer <br /><span>April - present</span></h2>
+                            <h2 className="mb-2">Product Developer <span className="text-[#6eo6f2]">@Lumel</span> <br /><span>April - present</span></h2>
                             <ul className="flex flex-col gap-2">
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, repudiandae.</li>
                                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, repudiandae.</li>
                                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, repudiandae.</li>
                             </ul>
