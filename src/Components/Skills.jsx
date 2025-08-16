@@ -1,7 +1,7 @@
 function Skills() {
     return (
-        <div className='w-screen min-h-[400px] flex justify-center m-1'>
-            <div className="w-[85%] mx-auto">
+        <div className='w-screen min-h-[440px] flex justify-center m-1 items-center'>
+            <div className="w-[85%] mx-auto h-[80%]">
                 <h1 className="text-[56px] font-extrabold mb-4">Skills</h1>
                 <div className="w-full  grid [grid-template-columns:repeat(auto-fit,minmax(200px,1fr))] gap-4 m-auto text-[18px] font-normal text-[#4E525A]">
                     <div className="flex flex-col gap-2">
