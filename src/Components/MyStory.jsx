@@ -1,3 +1,5 @@
+import MyStacks from "./MyStacks";
+
 function MyStory() {
   return (
     <section className="w-screen bg-color-gray flex items-center justify-center py-10 px-4 min-h-[300px]">
@@ -6,6 +8,19 @@ function MyStory() {
           My Story
         </h1>
         <div className="space-y-4 text-base sm:text-lg text-[#4E525A]">
+          <MyStacks
+            stacks={[
+              "JavaScript",
+              "React",
+              "TypeScript",
+              "Next.js",
+              "Node.js",
+              "Redis",
+              "Playwright",
+              "k6",
+              "Docker",
+            ]}
+          />
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum consequatur placeat sunt deleniti maxime nihil, ut numquam suscipit perspiciatis illo veritatis odio ab assumenda, laboriosam itaque labore natus deserunt rerum!
           </p>
