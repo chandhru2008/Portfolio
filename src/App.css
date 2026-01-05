@@ -1,1 +1,45 @@
 @import "tailwindcss";
+.marquee {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+}
+
+.pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  background: black;
+  color: white;
+  border-radius: 9999px;
+  flex-shrink: 0;
+}
+
+/* Left → Right */
+.marquee-right {
+  animation: scroll-right 12s linear infinite;
+}
+
+/* Right → Left */
+.marquee-left {
+  animation: scroll-left 12s linear infinite;
+}
+
+@keyframes scroll-right {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
