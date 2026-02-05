@@ -15,7 +15,7 @@ function MyStacks({ stacks }) {
                 <div
                     key={rowIndex}
                     className="absolute left-0 w-full"
-                    style={{ top: `${rowIndex * 70}px` }}
+                    style={{ top: `${(rowIndex + 1) * 60}px` }}
                 >
                     <div
                         className={`marquee ${
