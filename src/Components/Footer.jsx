@@ -1,7 +1,7 @@
 import { Github, Instagram, Linkedin, Facebook } from 'lucide-react';
 import { useLocation, useNavigate } from 'react-router-dom';
 function Footer() {
-    const socialMediaIcons = [<Github className='hover:text-[#6e06f2] cursor-pointer' />, <Instagram className='hover:text-[#6e06f2] cursor-pointer' />, <Linkedin className='hover:text-[#6e06f2]  cursor-pointer' />, <Facebook className='hover:text-[#6e06f2] cursor-pointer' />];
+    const socialMediaIcons = [<Github onClick={() => {  window.location.href = "https://github.com/chandhru2008";}} className='hover:text-[#6e06f2] cursor-pointer' />, <Instagram onClick={() => {  window.location.href = "https://github.com/chandhru2008";} }className='hover:text-[#6e06f2] cursor-pointer' />, <Linkedin onClick={() => {  window.location.href = "https://www.linkedin.com/in/chandhru-g-s-soundarajan2006/";} }className='hover:text-[#6e06f2]  cursor-pointer' />, <Facebook onClick={() => {  window.location.href = "https://github.com/chandhru2008";} }className='hover:text-[#6e06f2] cursor-pointer' />];
     const navigate = useNavigate();
     const location = useLocation();
     const pathname = location.pathname;
